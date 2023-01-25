@@ -83,7 +83,14 @@ A resposta paginada segue o formato:
         {
             "id": 1,
             "nome": "Nome Teste 1",
-            "dtNascimento": "2000-01-01"
+            "dtNascimento": "2000-01-01",
+            "endereco": {
+                "id": 1,
+                "cep": "01206000",
+                "logradouro": "Avenida Rio Branco 1",
+                "numero": "744",
+                "cidade": "Sao Paulo"
+            }
         },
         {
             "id": 2,
@@ -103,6 +110,21 @@ A resposta paginada segue o formato:
         {
             "id": 5,
             "nome": "Nome Teste 5",
+            "dtNascimento": "2000-01-01"
+        },
+        {
+            "id": 6,
+            "nome": "Nome Teste 6",
+            "dtNascimento": "2000-01-01"
+        },
+        {
+            "id": 7,
+            "nome": "Nome Teste 7",
+            "dtNascimento": "2000-01-01"
+        },
+        {
+            "id": 8,
+            "nome": "Nome Teste 8",
             "dtNascimento": "2000-01-01"
         }
     ],
